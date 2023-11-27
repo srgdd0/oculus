@@ -84,3 +84,51 @@ body {
   border-radius: 50%;
   color: #fff;
 }
+
+.hero {
+  min-height: calc(100vh - 81px);
+  background-image: url(../images/bcg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom center;
+}
+
+.title {
+  padding-top: 16%;
+  font-size: 96px;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 36px;
+  margin-bottom: 5px;
+}
+
+.description {
+  font-size: 13px;
+  margin-bottom: 50px;
+}
+
+.buy-btn {
+  display: flex;
+  cursor: pointer;
+  border: none;
+  text-transform: uppercase;
+  padding: 1px;
+  background: linear-gradient(180deg, #BC10D8 0%, rgba(80, 0, 250, 0.93) 100%);
+}
+
+.buy-btn-text {
+  padding: 20px 110px;
+  color: #f6f4f5;
+}
+
+.buy-btn-price {
+  padding: 20px 105px;
+  background-color: #f6f4f5;
+}
+
+.buy-description {
+  font-size: 13px;
+  padding-top: 6px;
+}
